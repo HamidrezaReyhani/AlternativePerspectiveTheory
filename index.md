@@ -1,3 +1,6 @@
+<head>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
 <p align="center">
   <img src="./OPENLOGICLOGO.png" alt="OpenLogic Logo"/>
 </p>
