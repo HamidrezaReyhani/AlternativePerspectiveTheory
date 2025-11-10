@@ -1,7 +1,7 @@
 # AlternativePerspectiveTheory
 A mathematical and logical framework for modeling reality through multi-valued logic and probabilistic perspective aggregation.
 <p align="center">
-  <img src="./OPEN LOGIC LOGO.png" alt="OpenLogic Logo" width="250"/>
+  <img src="./OPENLOGICLOGO.png" alt="OpenLogic Logo"/>
 </p>
 
 # Alternative Perspective Theory: A Mathematical and Logical Framework for Multi-Dimensional Reality Modeling
