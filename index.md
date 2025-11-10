@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./OPENـLOGICـLOGO.png" alt="OpenLogic Logo"/>
+  <img src="./OPENLOGICLOGO.png" alt="OpenLogic Logo"/>
 </p>
 
 # Alternative Perspective Theory: A Mathematical and Logical Framework for Multi-Dimensional Reality Modeling
