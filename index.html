@@ -1,188 +1,197 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alternative Perspective Theory - OpenLogic</title>
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  <!-- MathJax for rendering LaTeX equations -->
+
+  <!-- MathJax for LaTeX -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script id="MathJax-script" async 
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
   <style>
-  :root{--maxw:960px;--accent:#0b5cff}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans";margin:0;padding:2rem;background:#fff;color:#111}
-  .container{max-width:var(--maxw);margin:0 auto}
-  header{text-align:center;margin-bottom:1.5rem}
-header img {
-  display: block;
-  margin: 0 auto 1rem;
-  max-width: 400px;
-  height: auto;
-}
-
-  h1{font-size:1.6rem;margin:0.6rem 0;text-align:center}
-  h2{font-size:1.1rem;margin:1rem 0;text-align:center}
-  p{line-height:1.7;text-align:justify}
-  pre.math{white-space:pre-wrap;font-family:inherit}
-  hr{border:none;border-top:1px solid #eee;margin:2rem 0}
-  footer{font-size:0.9rem;text-align:center;color:#555;margin-top:2.5rem}
-  code{background:#f7f7f7;padding:0.15rem 0.3rem;border-radius:4px}
-  @media (max-width:600px){body{padding:1rem} h1{font-size:1.2rem}}
-</style>
-
+    :root {
+      --maxw: 960px;
+      --accent: #0b5cff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+      margin: 0;
+      padding: 2rem;
+      background: #fff;
+      color: #111;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: var(--maxw);
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header img.logo {
+      display: block;
+      margin: 1rem auto;
+      height: auto;
+      width: auto;
+      max-width: 100%;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin: 0.6rem 0;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin: 1.2rem 0 0.6rem;
+      color: var(--accent);
+      text-align: left;
+    }
+    p, li {
+      text-align: justify;
+    }
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 2rem 0;
+    }
+    footer {
+      font-size: 0.9rem;
+      text-align: center;
+      color: #555;
+      margin-top: 2.5rem;
+    }
+    code {
+      background: #f7f7f7;
+      padding: 0.15rem 0.3rem;
+      border-radius: 4px;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-<header>
-  <!-- Ensure the image file name matches exactly (case-sensitive) -->
-  <img src="./OPENLOGICLOGO.png" alt="OpenLogic Logo">
-  <h1>Alternative Perspective Theory: A Mathematical and Logical Framework for Multi-Dimensional Reality Modeling</h1>
-  <h2>Technical Documentation and White Paper</h2>
-  <p><strong>Version 1.0</strong><br>
-  <strong>Date:</strong> November 10, 2025<br>
-  <strong>Author:</strong> Seyed HamidReza Reyhani<br>
-  <strong>Affiliations:</strong> Founder of OpenLogic, Creator of Alternative Perspective Theory<br>
-  <strong>GitHub Repository:</strong> <a href="https://github.com/HamidrezaReyhani">https://github.com/HamidrezaReyhani</a></p>
-</header>
+    <header>
+      <!-- Logo (keep the exact filename as in repo) -->
+      <img src="./OPENLOGICLOGO.png" alt="OpenLogic Logo" class="logo">
+      <h1>Alternative Perspective Theory: A Mathematical and Logical Framework for Multi-Dimensional Reality Modeling</h1>
+      <h2 style="text-align:center;">Technical Documentation and White Paper</h2>
+      <p><strong>Version 1.1</strong><br>
+      <strong>Date:</strong> November 11, 2025<br>
+      <strong>Author:</strong> Seyed HamidReza Reyhani<br>
+      <strong>Affiliations:</strong> Founder of OpenLogic, Creator of Alternative Perspective Theory<br>
+      <strong>GitHub Repository:</strong> 
+      <a href="https://github.com/HamidrezaReyhani">https://github.com/HamidrezaReyhani</a></p>
+    </header>
 
+    <hr>
 
-<hr>
+    <main>
 
-<!-- The full paper content follows exactly as in README.md -->
-<!-- For maintainability, you may also link to the markdown file: -> <a href="./README.md">Read on GitHub</a>
-     but since you asked to keep every word, the HTML below contains the full text verbatim. -->
+      <section>
+        <p><strong>Alternative Perspective Theory</strong> — or “Alternative Viewpoint” — asserts that understanding any subject requires examining it from multiple angles rather than a single, conventional viewpoint.</p>
 
-<main>
-  <!-- Abstract -->
-  <section>
-    <h2>Abstract</h2>
-    <p>Alternative Perspective Theory proposes a structured approach to understanding reality by integrating multiple viewpoints into a cohesive, probabilistic model. Drawing from multi-valued logic, conditional probability, and vector-based representations, the theory quantifies truth as a weighted aggregation of perspectives, accounting for context, consistency, and multi-dimensional factors such as emotion, culture, interests, and logic. This framework enables consistent, verifiable analysis of complex issues, promoting balanced decision-making. Mathematical formulations ensure the model's rigor, while practical implementations in data analysis and AI are outlined for empirical validation.</p>
-  </section>
+        <p>Imagine looking at a picture: from the front, you see one part, but from the side or above, you perceive something entirely new. This theory says that the same applies to reality — whether analyzing human behavior, social systems, or everyday events — by considering perspectives such as cultural, psychological, economic, and personal dimensions.</p>
 
-  <hr>
+        <p><strong>In short:</strong> Alternative Perspective means examining a topic from several different directions to achieve a more complete and fair portrayal of reality.</p>
 
-  <!-- Introduction -->
-  <section>
-    <h2>Introduction</h2>
-    <p>In an increasingly interconnected world, traditional binary logic often fails to capture the nuances of human experience and societal dynamics. Alternative Perspective Theory addresses this limitation by formalizing the integration of diverse viewpoints into a unified representation of truth. Developed by Seyed HamidReza Reyhani, Founder of OpenLogic, this theory posits that reality is best approximated through a multi-dimensional lens, where each perspective contributes proportionally based on its contextual relevance and empirical support.</p>
+        <p>For instance, when two people argue, the alternative perspective approach means listening to both sides and their circumstances before forming a judgment — leading to more balanced, rational understanding and decision-making.</p>
+      </section>
 
-    <p>The core innovation lies in transforming qualitative perspectivism into a quantitative, computable structure. This white paper elucidates the logical foundations, mathematical models, and potential applications, providing a blueprint for implementation and extension.</p>
-  </section>
+      <hr>
 
-  <hr>
+      <section>
+        <h2>Abstract</h2>
+        <p>Alternative Perspective Theory proposes a structured approach to understanding reality by integrating multiple viewpoints into a cohesive, probabilistic model. Drawing from multi-valued logic, conditional probability, and vector-based representations, the theory quantifies truth as a weighted aggregation of perspectives, accounting for context, consistency, and multi-dimensional factors such as emotion, culture, interests, and logic.</p>
+      </section>
 
-  <!-- Logical Foundations -->
-  <section>
-    <h2>Logical Foundations</h2>
-    <p>The theory is rooted in multi-valued logic, extending classical binary truth (true/false) to a continuum of values between 0 and 1. This allows for partial truths, where a proposition's validity varies by viewpoint and context.</p>
+      <hr>
 
-    <ul>
-      <li><strong>Key Principle</strong>: Every proposition exhibits a degree of truth <code>f(x) in [0, 1]</code>, where <code>x</code> represents a specific perspective or contextual factor.</li>
-      <li><strong>Inspiration</strong>: Derived from fuzzy logic and Bayesian inference, emphasizing that absolute truth is rare, and composite understanding emerges from aggregation.</li>
-    </ul>
+      <section>
+        <h2>Introduction</h2>
+        <p>In a globally interconnected world, binary logic often fails to capture nuance. This theory formalizes the integration of diverse viewpoints into a unified representation of truth — transforming qualitative perspectivism into a quantitative, computable structure.</p>
+      </section>
 
-    <p>This foundation ensures the theory's compatibility with probabilistic reasoning, avoiding dogmatic assertions in favor of evidence-based weighting.</p>
-  </section>
+      <hr>
 
-  <hr>
+      <section>
+        <h2>Logical Foundations</h2>
+        <p>The theory extends binary truth (true/false) into a continuum \([0,1]\), where partial truths exist based on perspective and context.</p>
+        <ul>
+          <li><strong>Key Principle:</strong> \( f(x) \in [0, 1] \)</li>
+          <li><strong>Inspiration:</strong> Derived from fuzzy logic and Bayesian inference.</li>
+        </ul>
+      </section>
 
-  <!-- Mathematical Model -->
-  <section>
-    <h2>Mathematical Model</h2>
-    <p>The theory employs a series of equations to compute a composite truth value from multiple perspectives. Let <code>D_i</code> denote the <code>i</code>-th perspective (for <code>i = 1</code> to <code>n</code>), and <code>C</code> represent the contextual conditions.</p>
+      <hr>
 
-    <h3>1. Truth Function per Perspective</h3>
-    <p><code>T(D_i) = P(D_i | C)</code><br>This quantifies the likelihood of <code>D_i</code> holding true given the context <code>C</code>, derived from empirical data, expert assessments, or surveys.</p>
+      <section>
+        <h2>Mathematical Model</h2>
 
-    <h3>2. Weighted Aggregation for Composite Truth</h3>
-    <p><code>H = sum_{i=1}^n w_i * T(D_i)</code><br>where <code>sum w_i = 1</code>, and <code>w_i</code> represents the weight (importance) of <code>D_i</code>, determined by factors such as reliability, diversity, or expertise.</p>
-    <p><strong>Weight Determination</strong>: Weights can be data-driven (e.g., via optimization minimizing error against a reference truth) or Bayesian (e.g., <code>w_i ∝ 1 / Var(T(D_i))</code>).</p>
+        <p>Let \( D_i \) denote the \( i \)-th perspective, and \( C \) the context.</p>
 
-    <h3>3. Consistency Measure</h3>
-    <p><code>C = 1 - sigma_T / sigma_max</code><br>where <code>sigma_T</code> is the standard deviation of <code>{ T(D_i) }</code>, normalized by <code>sigma_max</code> (maximum possible deviation, e.g., 0.5 for [0,1] range). Higher <code>C</code> indicates greater consistency; low values signal conflicting views requiring further reconciliation.</p>
+        <h3>1. Truth Function per Perspective</h3>
+        <p>\( T(D_i) = P(D_i \mid C) \)</p>
 
-    <h3>4. Vector Representation</h3>
-    <p>Perspectives are modeled as vectors in a multi-dimensional space (e.g., dimensions: emotion <code>e</code>, culture <code>c</code>, interests <code>m</code>, logic <code>l</code>):</p>
-    <p><code>V_i = [e_i, c_i, m_i, l_i]</code></p>
-    <p>The composite vector is:</p>
-    <p><code>V_total = (sum_{i=1}^n w_i V_i) / || sum_{i=1}^n w_i V_i ||</code></p>
-    <p>This normalized vector yields a balanced, multi-faceted truth.</p>
+        <h3>2. Weighted Aggregation</h3>
+        <p>\( H = \sum_{i=1}^{n} w_i T(D_i), \quad \sum w_i = 1 \)</p>
 
-    <h3>5. Correlation and Dependency Handling</h3>
-    <p><code>R_ij = corr(D_i, D_j)</code><br>For dependent views, adjust weights using covariance matrix inversion (e.g., in minimum-variance estimation) or advanced integrals like Choquet for non-linear interactions.</p>
+        <h3>3. Consistency Measure</h3>
+        <p>\( C = 1 - \frac{\sigma_T}{\sigma_{\max}} \)</p>
 
-    <h3>6. Final Composite Truth with Consistency</h3>
-    <p><code>H_final = H * C = (sum_{i=1}^n w_i T(D_i)) * (1 - sigma_T / sigma_max)</code><br>This penalizes discordant aggregations, enhancing reliability.</p>
-  </section>
+        <h3>4. Vector Representation</h3>
+        <p>\( \mathbf{V}_i = [e_i, c_i, m_i, l_i] \)</p>
+        <p>\( \mathbf{V}_{\text{total}} = \frac{\sum w_i \mathbf{V}_i}{\|\sum w_i \mathbf{V}_i\|} \)</p>
 
-  <hr>
+        <h3>5. Final Composite Truth</h3>
+        <p>\( H_{\text{final}} = H \cdot C \)</p>
+      </section>
 
-  <!-- Empirical Processing and Validation -->
-  <section>
-    <h2>Empirical Processing and Validation</h2>
-    <h3>Data Extraction and Analysis</h3>
-    <ul>
-      <li>Collect perspectives from surveys or datasets, estimating <code>T(D_i)</code> via frequency counts or logistic regression.</li>
-      <li>Use correlation matrices to detect synergies or conflicts.</li>
-      <li>Validate with metrics like Brier score (for predictive accuracy) or bootstrap intervals (for uncertainty).</li>
-    </ul>
+      <hr>
 
-    <h3>Experimental Pipeline</h3>
-    <ol>
-      <li>Gather raw data (e.g., responses with metadata).</li>
-      <li>Estimate <code>T(D_i | C)</code> using Bayesian methods (e.g., Beta priors).</li>
-      <li>Compute correlations and adjust weights.</li>
-      <li>Aggregate to <code>H_final</code> and measure <code>C</code>.</li>
-      <li>Cross-validate against ground truth or simulations.</li>
-    </ol>
+      <section>
+        <h2>Applications</h2>
+        <ul>
+          <li>Artificial Intelligence — consensus-building in multi-agent systems.</li>
+          <li>Social Sciences — modeling cultural bias and opinion aggregation.</li>
+          <li>Decision Theory — balanced, evidence-based policy formation.</li>
+        </ul>
+      </section>
 
-    <p>This pipeline is implementable in Python using libraries like NumPy, SciPy, and scikit-learn.</p>
-  </section>
+      <hr>
 
-  <hr>
+      <section>
+        <h2>Conclusion</h2>
+        <p>Alternative Perspective Theory provides a rigorous, extensible mathematical model for integrating diverse viewpoints into coherent truth estimation. As part of OpenLogic, it is open for collaboration and application in scientific and computational fields.</p>
+      </section>
 
-  <!-- Applications -->
-  <section>
-    <h2>Applications</h2>
-    <ul>
-      <li><strong>Artificial Intelligence</strong>: Enhances multi-agent systems for consensus-building.</li>
-      <li><strong>Social Sciences</strong>: Models cultural biases in opinion aggregation.</li>
-      <li><strong>Decision Theory</strong>: Supports balanced policy-making in diverse groups.</li>
-      <li><strong>Extensions</strong>: Integrate with machine learning for dynamic weight learning or hierarchical Bayesian models.</li>
-    </ul>
-  </section>
+      <hr>
 
-  <hr>
+      <section>
+        <h2>References</h2>
+        <ul>
+          <li>Zadeh, L. A. (1965). <em>Fuzzy Sets</em>. Information and Control.</li>
+          <li>Pearl, J. (1988). <em>Probabilistic Reasoning in Intelligent Systems</em>.</li>
+        </ul>
+      </section>
+    </main>
 
-  <!-- Conclusion and References -->
-  <section>
-    <h2>Conclusion</h2>
-    <p>Alternative Perspective Theory provides a rigorous, computable framework for navigating complexity through viewpoint integration. Its mathematical consistency and logical foundations render it verifiable and extensible, offering value in both theoretical and practical domains. As an open-source initiative under OpenLogic, this theory invites collaboration for refinement and application.</p>
-
-    <p>For source code, examples, or contributions, visit the GitHub repository: <a href="https://github.com/HamidrezaReyhani">https://github.com/HamidrezaReyhani</a>.</p>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>References</h2>
-    <ul>
-      <li>Zadeh, L. A. (1965). Fuzzy sets. <em>Information and Control</em>.</li>
-      <li>Pearl, J. (1988). <em>Probabilistic Reasoning in Intelligent Systems</em>.</li>
-      <li>Additional resources: Bayesian statistics texts and multi-valued logic literature.</li>
-    </ul>
-
-    <p>This document is released under an open license (e.g., CC BY 4.0) for public use. For inquiries, contact the author via GitHub.</p>
-  </section>
-
-</main>
-
-<footer>
-  <p>Released under CC BY 4.0 — OpenLogic, 2025.</p>
-</footer>
-
-
+    <footer>
+      <p>Released under CC BY 4.0 — OpenLogic, 2025.</p>
+    </footer>
   </div>
 </body>
 </html>
